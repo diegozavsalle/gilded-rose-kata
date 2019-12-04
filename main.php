@@ -15,6 +15,8 @@ $items [] = new Item("Conjured Mana Cake", 3, 6);
 
 GildedRose::updateQuality($items);
 
+//print_r($items);exit;
+
 foreach ($items as $item) {
     echo "Item: {$item->name}, Quality: {$item->quality}, SellIn: {$item->sellIn}\n";
 }
